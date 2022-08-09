@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate and Online Program</h1>
+    </section>
+    <!-- -------------------Our blog page content ---------------------- -->
+
+
+    <!-- ----------------facillities----------------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg ">
+                <h2>Our Certificate and Online Program</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam similique recusandae accusantium aliquam sed officiis dolorem vero velit magnam ea est pariatur nisi architecto incidunt harum, deleniti libero quod ab. Deleniti libero
+                    id blanditiis, asperiores placeat vel impedit dolor esse voluptates, facilis commodi sapiente ea adipisci officia neque dolorum molestiae quaerat ex voluptas vero porro veniam ipsa? Officiis, quos.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi fugit esse libero quaerat velit quas magni eius unde fugiat iusto delectus earum iste sunt adipisci quo impedit, iure rem ipsam a laboriosam nobis, similique et sint. Eligendi
+                    laudantium tempore, saepe neque delectus expedita deserunt. Officia dolorem quam magni sint suscipit sequi, quo voluptate temporibus. Earum explicabo rem, nulla aliquid sapiente alias labore laudantium ipsa quo fugiat deleniti impedit
+                    recusandae ab. Porro adipisci ab ad dignissimos laudantium eligendi iste commodi illum?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci repellat corrupti odio aliquam quos quasi molestiae repudiandae dolorem unde ipsa possimus voluptatem accusamus cum iste tempore officia, atque sapiente id voluptatum?
+                    Quia, enim eos tempore autem, temporibus officia voluptate, repudiandae illo commodi odio culpa repellendus nulla suscipit ex! Soluta placeat laudantium libero quasi debitis sunt voluptas ut distinctio ullam!
+                </p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quibusdam repellendus possimus incidunt vero ipsum cum quae dicta ea reiciendis animi sed doloremque voluptatum perspiciatis eum dolore nihil architecto nam, a, voluptatibus
+                    saepe magni optio est. Tempora pariatur velit dolorum.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="6" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">  Post comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div> <span>Business Analytics</span>
+                    <span>21</span></div>
+                <div> <span>Data science</span>
+                    <span>28</span></div>
+                <div><span>Machine Learning</span>
+                    <span>15</span></div>
+                <div><span>Computer science</span>
+                    <span>24</span></div>
+                <div><span>AutoCad</span>
+                    <span>19</span></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe repudiandae explicabo, dolor, illum sequi tenetur voluptate <br> nulla obcaecati temporibus et ut nisi? Nam iusto assumenda a ad maxime similique?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-Twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Mussaddiq </p>
+    </section>
+
+
+    <!-- -----javascript for the toggle menu ----- -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
